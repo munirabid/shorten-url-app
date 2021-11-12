@@ -1,5 +1,4 @@
 import "./App.css";
-import GridComponent from "./Grid";
 import URLFormComponent from "./UrlForm";
 
 function App() {
@@ -7,7 +6,6 @@ function App() {
     <div className="App">
       <div className="container mt-2">
         <URLFormComponent />
-        <GridComponent />
       </div>
     </div>
   );
