@@ -33,7 +33,9 @@ class GridComponent extends React.Component {
               <tr key={index + 1}>
                 <td> {index + 1} </td>
                 <td>
-                  <a href={item.shortUrl}>{item.shortUrl}</a>
+                  <a target="_blank" href={item.shortUrl}>
+                    {item.shortUrl}
+                  </a>
                 </td>
                 <td>{item.visitCount}</td>
                 <td>{item.attemptsToShorten ? item.attemptsToShorten : ""}</td>

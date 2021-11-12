@@ -95,7 +95,10 @@ class URLFormComponent extends React.Component {
 
             <div className="row w-100 ml-1 mt-2">
               <label>Short URL</label>
-              <a href={this.state.shortUrl}> {this.state.shortUrl}</a>
+              <a target="_blank" className="ml-2" href={this.state.shortUrl}>
+                {" "}
+                {this.state.shortUrl}
+              </a>
             </div>
           </div>
         </div>
